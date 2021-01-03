@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Aplikasi Github</string>
+    <string name="containerHint">Pencarian User Disini</string>
+    <string name="search">Search</string>
+    <string name="telepon">telepon</string>
+    <string name="sosial_media">Sosial Media</string>
+    <string name="search_hint">Cari disini</string>
+    <string name="nama_developer">Candra Julius Sinaga</string>
+    <string name="tidak_ditemukan">User Tidak Ditemukan</string>
+    <string name="instagram">Instagram</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="facebook">Facebook</string>
+    <string name="messageFacebook">Anda tidak menginstall Facebook</string>
+    <string name="message">Hai Developer Saya ingin bertanya tentang aplikasi ini</string>
+    <string name="messageWhatsapp">Anda tidak menginstall Whtatsapp</string>
+    <string name="messageInstagram">Anda tidak mengisntall Instagram</string>
+    <string name="teleponDeveloper">082311558341</string>
+    <string name="txt1">Follower</string>
+    <string name="txt2">Following</string>
+    <string name="id_user">UserId</string>
+    <string name="html_url">HTML URl</string>
+    <string name="avatar">gambar</string>
+    <string name="value">29</string>
+    <string name="name_user">namaUser</string>
+    <string name="cari_kosong">Pencarian Anda Kosong</string>
+    <string name="location">lokasiUeser</string>
+</resources>

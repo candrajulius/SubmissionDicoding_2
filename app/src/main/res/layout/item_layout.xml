@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="4dp"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgAvatarDetail1"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/avatar"
+            android:src="@drawable/ic_launcher_background"
+            app:civ_border_color="@android:color/black"
+            app:civ_border_width="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/materialTextView"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:text="@string/nama_developer"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/imgAvatarDetail1"
+            app:layout_constraintStart_toEndOf="@+id/imgAvatarDetail1"
+            app:layout_constraintTop_toTopOf="@+id/imgAvatarDetail1"
+            app:layout_constraintVertical_bias="0.215" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/userId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/id_user"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="@+id/materialTextView"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/materialTextView"
+            app:layout_constraintTop_toBottomOf="@+id/materialTextView" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

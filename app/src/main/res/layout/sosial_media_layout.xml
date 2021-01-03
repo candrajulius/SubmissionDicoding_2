@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@android:color/holo_red_dark"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/btn_facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/facebook"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/background_sosial_media"/>
+
+    <Button
+        android:id="@+id/btn_instagram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/instagram"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:textStyle="bold"
+        android:layout_marginRight="5dp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/background_sosial_media"/>
+
+    <Button
+        android:id="@+id/btn_whatsapp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/whatsapp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/background_sosial_media"/>
+
+</LinearLayout>
